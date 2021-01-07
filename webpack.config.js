@@ -11,7 +11,7 @@ const alias = { svelte: path.resolve("node_modules", "svelte") };
 const extensions = [".mjs", ".js", ".json", ".svelte", ".html"];
 const mainFields = ["svelte", "module", "browser", "main"];
 const fileLoaderRule = {
-  test: /\.(png|jpe?g|gif)$/i,
+  test: /\.(png|jpe?g|gif|svg)$/i,
   use: ["file-loader"],
 };
 
@@ -80,37 +80,35 @@ module.exports = {
     devtool: dev && "inline-source-map",
   },
 
-	server: {
-		entry: config.server.entry(),
-		output: config.server.output(),
-		target: 'node',
-		resolve: { alias, extensions, mainFields },
-		externals: Object.keys(pkg.dependencies).concat('encoding'),
-		module: {
-			rules: [
-				{
-					test: /\.(svelte|html)$/,
-					use: {
-						loader: 'svelte-loader',
-						options: {
-							css: false,
-							generate: 'ssr',
-							hydratable: true,
-							dev
-						}
-					}
-				},
-				fileLoaderRule
-			]
-		},
-		mode,
-		plugins: [
-			new WebpackModules()
-		],
-		performance: {
-			hints: false // it doesn't matter if server.js is large
-		}
-	},
+  server: {
+    entry: config.server.entry(),
+    output: config.server.output(),
+    target: "node",
+    resolve: { alias, extensions, mainFields },
+    externals: Object.keys(pkg.dependencies).concat("encoding"),
+    module: {
+      rules: [
+        {
+          test: /\.(svelte|html)$/,
+          use: {
+            loader: "svelte-loader",
+            options: {
+              css: false,
+              generate: "ssr",
+              hydratable: true,
+              dev,
+            },
+          },
+        },
+        fileLoaderRule,
+      ],
+    },
+    mode,
+    plugins: [new WebpackModules()],
+    performance: {
+      hints: false, // it doesn't matter if server.js is large
+    },
+  },
 
   serviceworker: {
     entry: config.serviceworker.entry(),
