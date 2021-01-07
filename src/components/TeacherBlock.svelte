@@ -83,20 +83,21 @@
     <div class="row justify-content-center">
         <div class="col-sm-10 col-md-6">
             <ol style="counter-reset: list-counter 9">
+                <li><strong>Малафеева Анна Александровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
+                <li><strong>Фролова Галина Владимировна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
+                <li><strong>Игнатьева Елена Петровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
+                <li><strong>Дадаева Эльвира Фаатовна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Давыдова Татьяна Александровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
-                <li><strong>Хамидуллина Фануза Фаридовна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
-                <li><strong>Прокофьева Ульяна Николаевна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
-                <li><strong>Мезитова Гульнара Равилевна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Валеева Диляра Ильгизовна</strong> <span class="badge badge-light">нейропсихолог</span></li>
             </ol>
         </div>
         <div class=" col-sm-10 col-md-6">
-            <ol style="counter-reset: list-counter 14">
+            <ol style="counter-reset: list-counter 15">
                 <li><strong>Шагивалеева Алиса Анатольевна</strong> <span class="badge badge-light">нейропсихолог</span></li>
                 <li><strong>Латыпова Зинира Равильевна</strong> <span class="badge badge-light">нейропсихолог</span></li>
-                <li><strong>Дардымова Татьяна Вадимовна</strong> <span class="badge badge-light">нейропсихолог</span></li>
-                <li><strong>Вертлиб Ирина Антанасовна</strong> <span class="badge badge-light">нейропсихолог</span></li>
+                <li><strong>Халитова Татьяна Владимировна</strong> <span class="badge badge-light">нейропсихолог</span></li>
                 <li><strong>Шелихова Виктория Юрьевна</strong> <span class="badge badge-light">учитель по подготовке к школе</span></li>
+                <li><strong>Абдеева Алина Радиковна</strong> <span class="badge badge-light">администратор</span></li>
             </ol>
         </div>
     </div>
