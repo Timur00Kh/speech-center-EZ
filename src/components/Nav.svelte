@@ -21,9 +21,9 @@
 	}
 </script>
 
-<Navbar color="light" light expand="md">
+<Navbar style="position: sticky; top:0;z-index: 10;" color="light" light expand="md">
 	<img src="{data.logo}" class="rounded mr-3 d-none d-md-block" alt="" width="50px">
-	<NavbarBrand class="mx-auto" href="/">{data.title}</NavbarBrand>
+	<NavbarBrand class="mx-auto" href="./">{data.title}</NavbarBrand>
 	<NavbarToggler on:click={() => (isOpen = !isOpen)} />
 	<Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
 		<Nav class="ml-auto" navbar>

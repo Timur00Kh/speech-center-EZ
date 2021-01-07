@@ -1,6 +1,18 @@
 <script>
 	import data from "../data";
 	import TeacherBlock from "../components/TeacherBlock.svelte";
+	import { onMount } from "svelte";
+
+	import Footer from "../components/Footer.svelte";
+
+	onMount(() => {
+		setTimeout(() => {
+			const anchor = window.location.hash.replace("#", "");
+			const anchorNode = document.getElementById(anchor);
+
+			if (anchorNode) anchorNode.scrollIntoView();
+		}, 200);
+	});
 </script>
 
 <svelte:head>
@@ -101,9 +113,17 @@
 				Типо отзывы
 			</p>
 		</div>
+		<div id="{data.blocks[6].anchor}" class="col-12 mt-4">
+			<h1>
+				<a href="#{data.blocks[6].anchor}">{data.blocks[6].title}</a>
+			</h1>
+			<p>
+				Типо отзывы
+			</p>
+		</div>
 	</div>
 </div>
-
+<Footer/>
 <style>
 	h1 a {
 		padding: 12px 0;
