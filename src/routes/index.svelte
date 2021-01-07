@@ -167,6 +167,9 @@
 	</div>
 </div>
 <style>
+	.blockquote p {
+		font-size: 1rem;
+	}
 	ol {
 		list-style: none;
 		padding: 0;
