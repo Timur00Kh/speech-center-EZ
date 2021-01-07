@@ -42,7 +42,7 @@
 		<Nav class="ml-auto" navbar>
 			{#each data.blocks as block}
 				<NavItem>
-					<NavLink href="#{block.anchor}">{block.title}</NavLink>
+					<NavLink on:click={() => (isOpen = false)} href="#{block.anchor}">{block.title}</NavLink>
 				</NavItem>
 			{/each}
 <!--			<UncontrolledDropdown nav inNavbar>-->
