@@ -13,47 +13,47 @@
   const teachers = [
     {
       name: 'Зайцева Эльвира Альбертовна',
-      position: 'рук, лог-деф.',
+      position: 'руководитель, логопед-дефектолог',
       photo: t1
     },
     {
-      name: 'Малафеева Анна Александровна',
-      position: 'лог-деф.',
+      name: 'Хакимова Лилия Ильгизаровна',
+      position: 'логопед-дефектолог',
       photo: t2
     },
     {
-      name: 'Фролова Галина Владимировна',
-      position: 'лог-деф.',
+      name: 'Назмеева Оксана Валерьевна',
+      position: 'логопед-дефектолог',
       photo: t3
     },
     {
-      name: 'Фахреева Гузель Равилевна',
-      position: 'лог-деф.',
+      name: 'Абдрахманова Лилия Талгатовна',
+      position: 'логопед-дефектолог',
       photo: t4
     },
     {
-      name: 'Игнатьева Елена Петровна',
-      position: 'лог-деф.',
+      name: 'Вафина Лилия Наилевна',
+      position: 'логопед-дефектолог',
       photo: t5
     },
     {
-      name: 'Абдрахманова Лилия Талгатовна',
-      position: 'лог-деф.',
+      name: 'Прокофьева Ульяна Николаевна',
+      position: 'логопед-дефектолог',
       photo: t6
     },
     {
-      name: 'Хакимова Лилия Ильгизаровна',
-      position: 'лог-деф.',
+      name: 'Хамидуллина Фануза Фаридовна',
+      position: 'логопед-дефектолог',
       photo: t7
     },
     {
-      name: 'Назмеева Оксана Валерьевна',
-      position: 'лог-деф.',
+      name: 'Фахреева Гузель Равилевна',
+      position: 'логопед-дефектолог',
       photo: t8
     },
     {
-      name: 'Дадаева Эльвира Фаатовна',
-      position: 'лог-деф.',
+      name: 'Осипова Ксения Витальевна',
+      position: 'логопед-дефектолог',
       photo: t9
     },
   ]
@@ -83,10 +83,10 @@
     <div class="row justify-content-center">
         <div class="col-sm-10 col-md-6">
             <ol style="counter-reset: list-counter 9">
-                <li><strong>Давыдова Татьяна Александровна</strong> <span class="badge badge-light">лог-деф.</span></li>
-                <li><strong>Хамидуллина Фануза Фаридовна</strong> <span class="badge badge-light">лог-деф.</span></li>
-                <li><strong>Прокофьева Ульяна Николаевна</strong> <span class="badge badge-light">лог-деф.</span></li>
-                <li><strong>Мезитова Гульнара Равилевна</strong> <span class="badge badge-light">лог-деф.</span></li>
+                <li><strong>Давыдова Татьяна Александровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
+                <li><strong>Хамидуллина Фануза Фаридовна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
+                <li><strong>Прокофьева Ульяна Николаевна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
+                <li><strong>Мезитова Гульнара Равилевна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Валеева Диляра Ильгизовна</strong> <span class="badge badge-light">нейропсихолог</span></li>
             </ol>
         </div>
