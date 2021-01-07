@@ -35,29 +35,44 @@
 </script>
 
 <Navbar style="position: sticky; top:0;z-index: 10;" color="light" light expand="md">
-	<img src="{data.logo}" class="rounded mr-3 d-none d-md-block" alt="" width="50px">
-	<NavbarBrand class="mx-auto" href="./">{data.title}</NavbarBrand>
-	<NavbarToggler on:click={() => (isOpen = !isOpen)} />
-	<Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
-		<Nav class="ml-auto" navbar>
-			{#each data.blocks as block}
-				<NavItem>
-					<NavLink on:click={() => (isOpen = false)} href="#{block.anchor}">{block.title}</NavLink>
-				</NavItem>
-			{/each}
-<!--			<UncontrolledDropdown nav inNavbar>-->
-<!--				<DropdownToggle nav caret>Options</DropdownToggle>-->
-<!--				<DropdownMenu right>-->
-<!--					<DropdownItem>Option 1</DropdownItem>-->
-<!--					<DropdownItem>Option 2</DropdownItem>-->
-<!--					<DropdownItem divider />-->
-<!--					<DropdownItem>Reset</DropdownItem>-->
-<!--				</DropdownMenu>-->
-<!--			</UncontrolledDropdown>-->
-		</Nav>
-	</Collapse>
+	<div class="w-100" style="display: flex; align-items: center;flex-flow: row wrap;">
+		<div class="justify-content-md-center" style="display: flex; align-items: center;width: 100%;">
+			<img src="{data.logo}" class="rounded mr-3  logo" alt="logo">
+			<NavbarBrand class="" href="./">{data.title}</NavbarBrand>
+			<NavbarToggler class="ml-auto" on:click={() => (isOpen = !isOpen)} />
+		</div>
+
+		<Collapse class="w-100" {isOpen} navbar expand="md" on:update={handleUpdate}>
+			<Nav class="mx-auto" navbar>
+				{#each data.blocks as block}
+					<NavItem>
+						<NavLink on:click={() => (isOpen = false)} href="#{block.anchor}">{block.title}</NavLink>
+					</NavItem>
+				{/each}
+	<!--			<UncontrolledDropdown nav inNavbar>-->
+	<!--				<DropdownToggle nav caret>Options</DropdownToggle>-->
+	<!--				<DropdownMenu right>-->
+	<!--					<DropdownItem>Option 1</DropdownItem>-->
+	<!--					<DropdownItem>Option 2</DropdownItem>-->
+	<!--					<DropdownItem divider />-->
+	<!--					<DropdownItem>Reset</DropdownItem>-->
+	<!--				</DropdownMenu>-->
+	<!--			</UncontrolledDropdown>-->
+			</Nav>
+		</Collapse>
+	</div>
 </Navbar>
 
 <style>
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
 
+	@media (max-width: 575px) {
+		.logo {
+			width: 25px;
+			height: 25px;
+		}
+	}
 </style>
