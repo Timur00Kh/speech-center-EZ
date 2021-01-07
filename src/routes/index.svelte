@@ -159,9 +159,6 @@
 			<h1 class="block-heading">
 				<a href="#{data.blocks[6].anchor}">{data.blocks[6].title}</a>
 			</h1>
-			<p>
-				Типо отзывы
-			</p>
 		</div>
 		<Footer/>
 	</div>
