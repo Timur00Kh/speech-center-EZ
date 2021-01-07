@@ -60,7 +60,7 @@
 </script>
 
 <div id="{data.blocks[4].anchor}" class="col-12 mt-4">
-    <h1>
+    <h1 class="block-heading">
         <a href="#{data.blocks[4].anchor}">{data.blocks[4].title}</a>
     </h1>
 </div>

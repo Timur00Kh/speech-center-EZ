@@ -33,7 +33,7 @@
 	<div class="row">
 		<div id="{data.blocks[0].anchor}" class="col-12 mt-4">
 			<img class="rounded w-100" src="{data.blocks[0].photo}" alt="TODO">
-			<h1>
+			<h1 class="block-heading mt-4">
 				<a href="#{data.blocks[0].anchor}">{data.blocks[0].title}</a>
 			</h1>
 
@@ -49,7 +49,7 @@
 		</div>
 		<div id="{data.blocks[1].anchor}" class="col-12 mt-4">
 			<img class="rounded w-100" src="{data.blocks[1].photo}" alt="TODO">
-			<h1>
+			<h1 class="block-heading mt-4">
 				<a href="#{data.blocks[1].anchor}">{data.blocks[1].title}</a>
 			</h1>
 
@@ -77,7 +77,7 @@
 		</div>
 		<div id="{data.blocks[2].anchor}" class="col-12 mt-4">
 			<img class="rounded w-100" src="{data.blocks[2].photo}" alt="TODO">
-			<h1>
+			<h1 class="block-heading mt-4">
 				<a href="#{data.blocks[2].anchor}">{data.blocks[2].title}</a>
 			</h1>
 
@@ -98,7 +98,7 @@
 
 		<div id="{data.blocks[3].anchor}" class="col-12 mt-4">
 			<img class="rounded w-100" src="{data.blocks[3].photo}" alt="TODO">
-			<h1>
+			<h1 class="block-heading mt-4">
 				<a href="#{data.blocks[3].anchor}">{data.blocks[3].title}</a>
 			</h1>
 			<p>
@@ -107,7 +107,7 @@
 		</div>
 		<TeacherBlock/>
 		<div id="{data.blocks[5].anchor}" class="col-12 mt-4">
-			<h1>
+			<h1 class="block-heading">
 				<a href="#{data.blocks[5].anchor}">{data.blocks[5].title}</a>
 			</h1>
 			<p>
@@ -115,7 +115,7 @@
 			</p>
 		</div>
 		<div id="{data.blocks[6].anchor}" class="col-12 mt-4">
-			<h1>
+			<h1 class="block-heading">
 				<a href="#{data.blocks[6].anchor}">{data.blocks[6].title}</a>
 			</h1>
 			<p>
@@ -126,17 +126,6 @@
 	</div>
 </div>
 <style>
-	h1 a {
-		padding: 12px 0;
-		display: block;
-		text-align: center;
-		color: black;
-		text-decoration: none;
-	}
-	h1 a:focus {
-		text-decoration: none;
-	}
-
 	ol {
 		list-style: none;
 		padding: 0;
