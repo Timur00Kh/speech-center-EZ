@@ -16,11 +16,11 @@
     </div>
 </div>
 <div class="col-md-3 align-content-between">
-    <div>
+    <div class="link-item">
         <img class="icon" src="{instIcon}" alt="inst">
         <a href="https://www.instagram.com/rechevoi_centre_kzn/">@rechevoi_centre_kzn</a>
     </div>
-    <div>
+    <div class="link-item">
         <img class="icon" src="{vkIcon}" alt="inst">
         <a href="https://vk.com/zaitseva_center">@zaitseva_center</a>
     </div>
@@ -30,10 +30,13 @@
 <style>
     .link-item {
         display: flex;
+        margin-bottom: 8px;
     }
 
     .icon {
         width: 20px;
         height: 20px;
+        margin-right: 4px;
+        margin-top: 2px;
     }
 </style>
