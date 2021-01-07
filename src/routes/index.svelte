@@ -5,9 +5,18 @@
 
 <svelte:head>
 	<title>Речевой центр Эльвиры Зайцевой</title>
+
+	<!--Open Graph-->
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Речевой центр Эльвиры Зайцевой">
+	<meta property="og:description" content="Мы осуществляем комплексную разностороннюю поддержку детей, основанную на нейропсихологии, дефектологии, психологии, педагогике. Это означает, что при работе с Вашим ребенком мы используем комплексный междисциплинарный подход при оценке причин трудностей ребенка, включаем знания разных специалистов в разработку индивидуальной программы коррекционного развития (невролога, нейропсихолога, логопеда-дефектолога, психолога). Мы помогаем детям, кому не смогли помочь другие. Осуществляем олное сопровождение ребенка до результата. Мы придаем очень большое значение работе с родителями, как в форме семейных консультаций, так и в форме прямых эфиров на радиоканале, публикаций материалов в социальных сетях.">
+	<meta property="og:url" content="TODO">
+	<meta property="og:image" content="{data.logo}">
+	<meta property="og:site_name" content="{data.title}">
 </svelte:head>
 
-<div class="container">
+<div class="container" style="max-width: 1000px">
 	<div class="row">
 		<div id="{data.blocks[0].anchor}" class="col-12 mt-4">
 			<img class="rounded w-100" src="{data.blocks[0].photo}" alt="TODO">
@@ -84,6 +93,14 @@
 			</p>
 		</div>
 		<TeacherBlock/>
+		<div id="{data.blocks[5].anchor}" class="col-12 mt-4">
+			<h1>
+				<a href="#{data.blocks[5].anchor}">{data.blocks[5].title}</a>
+			</h1>
+			<p>
+				Типо отзывы
+			</p>
+		</div>
 	</div>
 </div>
 
