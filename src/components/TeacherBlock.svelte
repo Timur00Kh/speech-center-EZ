@@ -8,6 +8,9 @@
   import t7 from 'images/teachers/7.jpg';
   import t8 from 'images/teachers/8.jpg';
   import t9 from 'images/teachers/9.jpg';
+  import t10 from 'images/teachers/10.jpg';
+  import t11 from 'images/teachers/11.jpg';
+  import t12 from 'images/teachers/12.jpg';
   import data from "../data";
 
   const teachers = [
@@ -56,6 +59,21 @@
       position: 'логопед-дефектолог',
       photo: t9
     },
+    {
+      name: 'Валеева Диляра Ильгизовна',
+      position: 'нейропсихолог',
+      photo: t10
+    },
+    {
+      name: 'Яхина Лейля Масгутовна',
+      position: 'администратор',
+      photo: t11
+    },
+    {
+      name: 'Абдеева Алина Радиковна',
+      position: 'администратор',
+      photo: t12
+    },
   ]
 </script>
 
@@ -82,22 +100,22 @@
 <div class="col-12 mt-2">
     <div class="row justify-content-center">
         <div class="col-sm-10 col-md-6">
-            <ol style="counter-reset: list-counter 9">
+            <ol style="counter-reset: list-counter 12">
                 <li><strong>Малафеева Анна Александровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Фролова Галина Владимировна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Игнатьева Елена Петровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Дадаева Эльвира Фаатовна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
                 <li><strong>Давыдова Татьяна Александровна</strong> <span class="badge badge-light">логопед-дефектолог</span></li>
-                <li><strong>Валеева Диляра Ильгизовна</strong> <span class="badge badge-light">нейропсихолог</span></li>
+<!--                <li><strong>Валеева Диляра Ильгизовна</strong> <span class="badge badge-light">нейропсихолог</span></li>-->
             </ol>
         </div>
         <div class=" col-sm-10 col-md-6">
-            <ol style="counter-reset: list-counter 15">
+            <ol style="counter-reset: list-counter 17">
                 <li><strong>Шагивалеева Алиса Анатольевна</strong> <span class="badge badge-light">нейропсихолог</span></li>
                 <li><strong>Латыпова Зинира Равильевна</strong> <span class="badge badge-light">нейропсихолог</span></li>
                 <li><strong>Халитова Татьяна Владимировна</strong> <span class="badge badge-light">нейропсихолог</span></li>
                 <li><strong>Шелихова Виктория Юрьевна</strong> <span class="badge badge-light">учитель по подготовке к школе</span></li>
-                <li><strong>Абдеева Алина Радиковна</strong> <span class="badge badge-light">администратор</span></li>
+<!--                <li><strong>Абдеева Алина Радиковна</strong> <span class="badge badge-light">администратор</span></li>-->
             </ol>
         </div>
     </div>
