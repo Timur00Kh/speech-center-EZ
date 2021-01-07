@@ -1,11 +1,10 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 
+	import bg from 'images/bg.jpg'
+
 	// export let segment;
 </script>
-
-<style>
-</style>
 
 <svelte:head>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -17,6 +16,13 @@
 </svelte:head>
 
 <Nav/>
-<main>
+<main class="body" style={`background-image: url(${bg})`}>
 	<slot></slot>
 </main>
+
+<style>
+	.body {
+		background-repeat: repeat-y;
+		background-size: contain;
+	}
+</style>

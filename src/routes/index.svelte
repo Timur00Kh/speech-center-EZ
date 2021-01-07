@@ -29,7 +29,7 @@
 	<meta property="og:site_name" content="{data.title}">
 </svelte:head>
 
-<div class="container" style="max-width: 1000px">
+<div class="container" style="max-width: 1000px; background-color: rgba(255,255,255, 0.85);">
 	<div class="row">
 		<div id="{data.blocks[0].anchor}" class="col-12 mt-4">
 			<img class="rounded w-100" src="{data.blocks[0].photo}" alt="TODO">
