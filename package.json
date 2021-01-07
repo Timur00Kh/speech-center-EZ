@@ -7,7 +7,8 @@
     "build": "sapper build",
     "export": "sapper export",
     "start": "node __sapper__/build",
-    "publish-gh-pages": "rimraf  __sapper__/export && sapper export --basepath speech-center-EZ && gh-pages -d __sapper__/export/speech-center-EZ"
+    "biuld-gh-pages": "sapper export --basepath speech-center-EZ",
+    "publish-gh-pages": "rimraf  __sapper__/export && npm run biuld-gh-pages && gh-pages -d __sapper__/export/speech-center-EZ"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
