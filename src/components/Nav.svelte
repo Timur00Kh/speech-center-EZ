@@ -1,17 +1,30 @@
 <script lang="ts">
-	import {
-		Collapse,
-		Navbar,
-		NavbarToggler,
-		NavbarBrand,
-		Nav,
-		NavItem,
-		NavLink,
-		UncontrolledDropdown,
-		DropdownToggle,
-		DropdownMenu,
-		DropdownItem
-	} from 'sveltestrap/src';
+	// import {
+	// 	Collapse,
+	// 	Navbar,
+	// 	NavbarToggler,
+	// 	NavbarBrand,
+	// 	Nav,
+	// 	NavItem,
+	// 	NavLink,
+	// 	UncontrolledDropdown,
+	// 	DropdownToggle,
+	// 	DropdownMenu,
+	// 	DropdownItem
+	// } from 'sveltestrap/dist/sveltestrap';
+
+	import Collapse from 'sveltestrap/src/Collapse';
+	import Navbar from 'sveltestrap/src/Navbar';
+	import NavbarToggler from 'sveltestrap/src/NavbarToggler';
+	import NavbarBrand from 'sveltestrap/src/NavbarBrand';
+	import Nav from 'sveltestrap/src/Nav';
+	import NavItem from 'sveltestrap/src/NavItem';
+	import NavLink from 'sveltestrap/src/NavLink';
+	// import UncontrolledDropdown from 'sveltestrap/src/UncontrolledDropdown';
+	// import DropdownToggle from 'sveltestrap/src/DropdownToggle';
+	// import DropdownMenu from 'sveltestrap/src/DropdownMenu';
+	// import DropdownIte from 'sveltestrap/src/DropdownIte';
+
 	import data from '../data'
 
 	let isOpen = false;
