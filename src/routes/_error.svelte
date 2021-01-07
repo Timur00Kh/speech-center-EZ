@@ -20,6 +20,10 @@
 		margin: 1em auto;
 	}
 
+	p, pre {
+		color: #f9f9f9;
+	}
+
 	@media (min-width: 480px) {
 		h1 {
 			font-size: 4em;

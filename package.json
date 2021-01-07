@@ -6,21 +6,32 @@
     "dev": "sapper dev",
     "build": "sapper build",
     "export": "sapper export",
-    "start": "node __sapper__/build"
+    "start": "node __sapper__/build",
+    "publish-gh-pages": "rimraf  __sapper__/export && sapper export --basepath speech-center-EZ && gh-pages -d __sapper__/export/speech-center-EZ"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "compression": "^1.7.1",
+    "mini-css-extract-plugin": "^1.3.3",
     "polka": "next",
-    "sirv": "^1.0.0"
+    "sirv": "^1.0.0",
+    "sveltestrap": "^3.11.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.2.0",
     "eslint-plugin-svelte3": "^3.0.0",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.2",
     "prettier-plugin-svelte": "^1.4.2",
+    "rimraf": "^3.0.2",
     "sapper": "^0.28.0",
     "svelte": "^3.17.3",
     "svelte-loader": "^2.9.0",
     "svelte-loader-hot": "^0.3.1",
+    "svelte-preprocess": "^4.6.1",
+    "svelte-preprocess-sass": "^0.2.0",
     "webpack": "^4.7.0",
     "webpack-modules": "^1.0.0"
   }
