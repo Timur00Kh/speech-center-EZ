@@ -122,9 +122,9 @@
 				Типо отзывы
 			</p>
 		</div>
+		<Footer/>
 	</div>
 </div>
-<Footer/>
 <style>
 	h1 a {
 		padding: 12px 0;
