@@ -14,6 +14,10 @@
         <img class="icon" src="{locationIcon}" alt="address">
         <div>ЖК Царево, ул. Тукая 11 <a href="tel:+79520365099">+79520365099</a></div>
     </div>
+    <div class="link-item">
+        <img class="icon" src="{locationIcon}" alt="address">
+        <div> г. Набережные Челны, ул. 17 комплекс 1  <a href="tel:+79656036845">+79656036845</a></div>
+    </div>
 </div>
 <div class="col-md-3 align-content-between">
     <div class="link-item">
